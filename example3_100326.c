@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
-Sayýnýn strong number olup olmadýðýný bulan program. Strong Number: rakamlarýn faktöriyelinin toplamý kendisine eþit sayýlara strong number denir.
+Sayýnýn strong number olup olmadýðýný bulan program. 
+Strong Number: rakamlarýn faktöriyelinin toplamý kendisine eþit sayýlara denir.
 do while kullanýlacak
 5 tane deðiþken kullanýlacak
 if statement kullanýlmayacak

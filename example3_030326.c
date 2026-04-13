@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <math.h>
-//Tam sayýdaki rakamlarýn karelerini alan program yazýn. calcpow adýnda bir macro tanýmlayýn.En fazla 2 tane integer deðer tanýmlayýn (num,sum). Karakter girilene kadar hesaplama yapsýn.
+/*	Tam sayýdaki rakamlarýn karelerini alan program yazýn.
+ 	calcpow adýnda bir macro tanýmlayýn.
+	 En fazla 2 tane integer deðer tanýmlayýn (num,sum). 
+	 Karakter girilene kadar hesaplama yapsýn.
+	*/
 #define calcpow(num)(pow(num,2))
 int main(){
 	int num,sum=0;

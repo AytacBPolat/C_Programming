@@ -12,6 +12,6 @@ int main(){
 	p = num; 			printf("%d\n",*++p);		//6
 	p = num;			printf("%d\n",++*p);		//9 !!! Burada dizinin ilk elemanýnýn deðerini kalýcý olarak deðiþtiriyoruz.
 	p = num;			printf("%d\n",(*p)++);		//9 Dolayýsýyla burada da deðiþtirdiðimiz eleman 9 u basar ancak program devam etseydi 10 çýktýsý görecektik.
-	p = num;			printf("%d\n",*p);			//num dizisi artýk {10, 6, 3, 9, 7} oldu.
+	p = num;			printf("Test edelim: %d\n",*p);			//num dizisi artýk {10, 6, 3, 9, 7} oldu.
 	return 0;
 }

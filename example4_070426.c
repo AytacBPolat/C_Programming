@@ -23,7 +23,6 @@ int main(){
 }
 void EachCharRev(char (*p)[16]){
 	int i,j,len=0;
-	char temp;
 	for(i=0;i<5;i++){
 		len=strlen(*(p+i));
 		char rev[len];
